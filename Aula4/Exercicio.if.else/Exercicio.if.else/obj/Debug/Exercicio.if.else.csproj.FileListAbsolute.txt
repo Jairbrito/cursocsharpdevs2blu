@@ -1,0 +1,8 @@
+D:\Community\Packages\Aula4\Exercicio.if.else\Exercicio.if.else\bin\Debug\Exercicio.@if.@else.exe.config
+D:\Community\Packages\Aula4\Exercicio.if.else\Exercicio.if.else\bin\Debug\Exercicio.@if.@else.exe
+D:\Community\Packages\Aula4\Exercicio.if.else\Exercicio.if.else\bin\Debug\Exercicio.@if.@else.pdb
+D:\Community\Packages\Aula4\Exercicio.if.else\Exercicio.if.else\obj\Debug\Exercicio.if.else.csproj.AssemblyReference.cache
+D:\Community\Packages\Aula4\Exercicio.if.else\Exercicio.if.else\obj\Debug\Exercicio.if.else.csproj.SuggestedBindingRedirects.cache
+D:\Community\Packages\Aula4\Exercicio.if.else\Exercicio.if.else\obj\Debug\Exercicio.if.else.csproj.CoreCompileInputs.cache
+D:\Community\Packages\Aula4\Exercicio.if.else\Exercicio.if.else\obj\Debug\Exercicio.@if.@else.exe
+D:\Community\Packages\Aula4\Exercicio.if.else\Exercicio.if.else\obj\Debug\Exercicio.@if.@else.pdb

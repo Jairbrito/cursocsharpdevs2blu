@@ -1,0 +1,8 @@
+D:\Community\Packages\Aula6\Aula6.Switch\src\Devs2Blu.Swtch\bin\Debug\Devs2Blu.Swtch.exe.config
+D:\Community\Packages\Aula6\Aula6.Switch\src\Devs2Blu.Swtch\bin\Debug\Devs2Blu.Swtch.exe
+D:\Community\Packages\Aula6\Aula6.Switch\src\Devs2Blu.Swtch\bin\Debug\Devs2Blu.Swtch.pdb
+D:\Community\Packages\Aula6\Aula6.Switch\src\Devs2Blu.Swtch\obj\Debug\Devs2Blu.Swtch.csproj.AssemblyReference.cache
+D:\Community\Packages\Aula6\Aula6.Switch\src\Devs2Blu.Swtch\obj\Debug\Devs2Blu.Swtch.csproj.SuggestedBindingRedirects.cache
+D:\Community\Packages\Aula6\Aula6.Switch\src\Devs2Blu.Swtch\obj\Debug\Devs2Blu.Swtch.csproj.CoreCompileInputs.cache
+D:\Community\Packages\Aula6\Aula6.Switch\src\Devs2Blu.Swtch\obj\Debug\Devs2Blu.Swtch.exe
+D:\Community\Packages\Aula6\Aula6.Switch\src\Devs2Blu.Swtch\obj\Debug\Devs2Blu.Swtch.pdb

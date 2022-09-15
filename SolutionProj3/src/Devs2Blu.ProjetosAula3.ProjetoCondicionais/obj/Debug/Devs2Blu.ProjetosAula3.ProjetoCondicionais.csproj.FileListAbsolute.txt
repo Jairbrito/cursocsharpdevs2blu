@@ -1,0 +1,8 @@
+D:\Community\Packages\SolutionProj3\src\Devs2Blu.ProjetosAula3.ProjetoCondicionais\bin\Debug\Devs2Blu.ProjetosAula3.ProjetoCondicionais.exe.config
+D:\Community\Packages\SolutionProj3\src\Devs2Blu.ProjetosAula3.ProjetoCondicionais\bin\Debug\Devs2Blu.ProjetosAula3.ProjetoCondicionais.exe
+D:\Community\Packages\SolutionProj3\src\Devs2Blu.ProjetosAula3.ProjetoCondicionais\bin\Debug\Devs2Blu.ProjetosAula3.ProjetoCondicionais.pdb
+D:\Community\Packages\SolutionProj3\src\Devs2Blu.ProjetosAula3.ProjetoCondicionais\obj\Debug\Devs2Blu.ProjetosAula3.ProjetoCondicionais.csproj.AssemblyReference.cache
+D:\Community\Packages\SolutionProj3\src\Devs2Blu.ProjetosAula3.ProjetoCondicionais\obj\Debug\Devs2Blu.ProjetosAula3.ProjetoCondicionais.csproj.SuggestedBindingRedirects.cache
+D:\Community\Packages\SolutionProj3\src\Devs2Blu.ProjetosAula3.ProjetoCondicionais\obj\Debug\Devs2Blu.ProjetosAula3.ProjetoCondicionais.csproj.CoreCompileInputs.cache
+D:\Community\Packages\SolutionProj3\src\Devs2Blu.ProjetosAula3.ProjetoCondicionais\obj\Debug\Devs2Blu.ProjetosAula3.ProjetoCondicionais.exe
+D:\Community\Packages\SolutionProj3\src\Devs2Blu.ProjetosAula3.ProjetoCondicionais\obj\Debug\Devs2Blu.ProjetosAula3.ProjetoCondicionais.pdb

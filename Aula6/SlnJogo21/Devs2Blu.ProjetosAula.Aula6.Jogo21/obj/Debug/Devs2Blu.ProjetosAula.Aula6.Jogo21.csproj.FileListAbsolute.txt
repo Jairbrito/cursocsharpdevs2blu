@@ -1,0 +1,11 @@
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\bin\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.exe.config
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\bin\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.exe
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\bin\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.pdb
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\obj\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.csproj.AssemblyReference.cache
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\obj\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.csproj.SuggestedBindingRedirects.cache
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\obj\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.TelaPrincipal.resources
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\obj\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.Properties.Resources.resources
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\obj\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.csproj.GenerateResource.cache
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\obj\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.csproj.CoreCompileInputs.cache
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\obj\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.exe
+D:\Community\Packages\Aula6\SlnJogo21\Devs2Blu.ProjetosAula.Aula6.Jogo21\obj\Debug\Devs2Blu.ProjetosAula.Aula6.Jogo21.pdb

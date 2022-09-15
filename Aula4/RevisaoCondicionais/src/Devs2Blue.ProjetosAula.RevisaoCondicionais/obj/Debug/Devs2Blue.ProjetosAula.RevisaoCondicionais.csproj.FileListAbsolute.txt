@@ -1,0 +1,8 @@
+D:\Community\Packages\Aula4\RevisaoCondicionais\src\Devs2Blue.ProjetosAula.RevisaoCondicionais\bin\Debug\Devs2Blue.ProjetosAula.RevisaoCondicionais.exe.config
+D:\Community\Packages\Aula4\RevisaoCondicionais\src\Devs2Blue.ProjetosAula.RevisaoCondicionais\bin\Debug\Devs2Blue.ProjetosAula.RevisaoCondicionais.exe
+D:\Community\Packages\Aula4\RevisaoCondicionais\src\Devs2Blue.ProjetosAula.RevisaoCondicionais\bin\Debug\Devs2Blue.ProjetosAula.RevisaoCondicionais.pdb
+D:\Community\Packages\Aula4\RevisaoCondicionais\src\Devs2Blue.ProjetosAula.RevisaoCondicionais\obj\Debug\Devs2Blue.ProjetosAula.RevisaoCondicionais.csproj.AssemblyReference.cache
+D:\Community\Packages\Aula4\RevisaoCondicionais\src\Devs2Blue.ProjetosAula.RevisaoCondicionais\obj\Debug\Devs2Blue.ProjetosAula.RevisaoCondicionais.csproj.SuggestedBindingRedirects.cache
+D:\Community\Packages\Aula4\RevisaoCondicionais\src\Devs2Blue.ProjetosAula.RevisaoCondicionais\obj\Debug\Devs2Blue.ProjetosAula.RevisaoCondicionais.csproj.CoreCompileInputs.cache
+D:\Community\Packages\Aula4\RevisaoCondicionais\src\Devs2Blue.ProjetosAula.RevisaoCondicionais\obj\Debug\Devs2Blue.ProjetosAula.RevisaoCondicionais.exe
+D:\Community\Packages\Aula4\RevisaoCondicionais\src\Devs2Blue.ProjetosAula.RevisaoCondicionais\obj\Debug\Devs2Blue.ProjetosAula.RevisaoCondicionais.pdb
