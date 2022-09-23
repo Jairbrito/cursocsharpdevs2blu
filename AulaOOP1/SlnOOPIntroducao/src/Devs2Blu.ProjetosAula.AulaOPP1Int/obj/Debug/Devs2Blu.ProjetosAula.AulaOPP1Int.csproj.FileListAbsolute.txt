@@ -1,0 +1,14 @@
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\bin\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.exe.config
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\bin\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.exe
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\bin\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.pdb
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\obj\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.csproj.AssemblyReference.cache
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\obj\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.csproj.SuggestedBindingRedirects.cache
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\obj\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.Form1.resources
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\obj\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.Properties.Resources.resources
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\obj\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.csproj.GenerateResource.cache
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\obj\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.csproj.CoreCompileInputs.cache
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\obj\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.exe
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\obj\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.pdb
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\bin\Debug\Devs2Blu.ProjetosAula.Classes.dll
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\bin\Debug\Devs2Blu.ProjetosAula.Classes.pdb
+D:\Community\Packages\AulaOOP1\SlnOOPIntroducao\src\Devs2Blu.ProjetosAula.AulaOPP1Int\obj\Debug\Devs2Blu.ProjetosAula.AulaOPP1Int.csproj.CopyComplete
