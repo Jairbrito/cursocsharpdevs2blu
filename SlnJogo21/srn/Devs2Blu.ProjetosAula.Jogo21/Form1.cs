@@ -93,6 +93,12 @@ namespace Devs2Blu.ProjetosAula.Jogo21
             txtResultP1.Text += $"\r\nPlayer 1 Totalizou {SomaP1} Pontos";
             txtResultP2.Text += $"\r\nPlayer 2 Totalizou {SomaP2} Pontos";
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         //Exemplo Metodo retornando valor
         private int CalculaPontuacao(int param1)
         {

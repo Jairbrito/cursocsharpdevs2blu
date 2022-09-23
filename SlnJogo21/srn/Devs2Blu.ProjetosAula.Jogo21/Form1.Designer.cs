@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.gbPlayer1 = new System.Windows.Forms.GroupBox();
             this.txtResultP1 = new System.Windows.Forms.TextBox();
             this.btnPlayer1 = new System.Windows.Forms.Button();
@@ -41,19 +40,11 @@
             this.txtConsole = new System.Windows.Forms.TextBox();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.btnNovoJogo = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.gbPlayer1.SuspendLayout();
             this.gbPlayer2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(231, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "ProjetoAula + Devs2Blu";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gbPlayer1
             // 
@@ -71,7 +62,7 @@
             // 
             // txtResultP1
             // 
-            this.txtResultP1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtResultP1.BackColor = System.Drawing.SystemColors.Info;
             this.txtResultP1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtResultP1.Location = new System.Drawing.Point(6, 19);
             this.txtResultP1.Multiline = true;
@@ -96,7 +87,7 @@
             // 
             // txtPlayer1
             // 
-            this.txtPlayer1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtPlayer1.BackColor = System.Drawing.SystemColors.Info;
             this.txtPlayer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPlayer1.Location = new System.Drawing.Point(6, 192);
             this.txtPlayer1.Name = "txtPlayer1";
@@ -120,7 +111,7 @@
             // 
             // txtResultP2
             // 
-            this.txtResultP2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtResultP2.BackColor = System.Drawing.SystemColors.Info;
             this.txtResultP2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtResultP2.Location = new System.Drawing.Point(6, 19);
             this.txtResultP2.Multiline = true;
@@ -145,7 +136,7 @@
             // 
             // txtPlayer2
             // 
-            this.txtPlayer2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtPlayer2.BackColor = System.Drawing.SystemColors.Info;
             this.txtPlayer2.Enabled = false;
             this.txtPlayer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPlayer2.Location = new System.Drawing.Point(6, 192);
@@ -156,7 +147,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Teal;
+            this.groupBox1.BackColor = System.Drawing.SystemColors.Info;
             this.groupBox1.Controls.Add(this.txtConsole);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
@@ -169,7 +160,7 @@
             // 
             // txtConsole
             // 
-            this.txtConsole.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtConsole.BackColor = System.Drawing.SystemColors.Info;
             this.txtConsole.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConsole.Location = new System.Drawing.Point(20, 33);
             this.txtConsole.Multiline = true;
@@ -202,18 +193,30 @@
             this.btnNovoJogo.UseVisualStyleBackColor = true;
             this.btnNovoJogo.Click += new System.EventHandler(this.btnNovoJogo_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.Menu;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(258, 44);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(135, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Projeto Jogo 21";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.Menu;
             this.ClientSize = new System.Drawing.Size(668, 605);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnNovoJogo);
             this.Controls.Add(this.btnIniciar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbPlayer2);
             this.Controls.Add(this.gbPlayer1);
-            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -229,8 +232,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox gbPlayer1;
         private System.Windows.Forms.GroupBox gbPlayer2;
         private System.Windows.Forms.Button btnPlayer1;
@@ -243,6 +244,7 @@
         private System.Windows.Forms.TextBox txtResultP2;
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.Button btnNovoJogo;
+        private System.Windows.Forms.Label label1;
     }
 }
 
