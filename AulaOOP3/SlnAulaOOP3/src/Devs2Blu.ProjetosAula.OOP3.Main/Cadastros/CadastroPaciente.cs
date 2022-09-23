@@ -16,7 +16,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
         }
 
-        public void ManuCadastro(Mocks mocks)
+        public void ManuCadastro()
         {
             int opcao = 0;
             do
@@ -33,7 +33,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                 switch (opcao)
                 {
                     case (int)MenuEnum.LISTAR:
-                        ListarPaciente(mocks);
+                        ListarPaciente();
                         break;
                     default:
                         break;
@@ -42,11 +42,11 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             } while (!opcao.Equals((int)MenuEnum.SAIR));
         }
 
-        public void ListarPaciente(Mocks mocks)
+        public void ListarPaciente()
         {
             Console.Clear();
 
-            foreach (Paciente paciente in mocks.ListaPacientes)
+            foreach (Paciente paciente in Program.Mock.ListaPacientes)
             {
                 Console.WriteLine(@"        =============");
                 Console.WriteLine($"Codigo: {paciente.CodigoPaciente}");

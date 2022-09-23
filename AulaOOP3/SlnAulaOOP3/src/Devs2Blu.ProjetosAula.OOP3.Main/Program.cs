@@ -20,6 +20,8 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main
             Mock = new Mocks();
             do
             {
+                Console.Clear();
+
                 Console.WriteLine(@"            10 - Cadastro de Paciente           ");
                 Console.WriteLine(@"             20 - Cadastro de Medicos           ");
                 Console.WriteLine(@"          30 - Cadastro de Recepcionistas       ");
@@ -27,20 +29,24 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main
                 Console.WriteLine(@"                     50 - Agenda                ");
                 Console.WriteLine(@"                   60 - Prontuario              ");
                 Console.WriteLine(@"                   70 - Financeiro              ");
-                Console.WriteLine(@"   =================================");
-                Console.WriteLine(@"                 0 - Sair              ");
+                Console.WriteLine(@"================================================");
+                Console.WriteLine(@"                      0 - Sair                  ");
                 Int32.TryParse(Console.ReadLine(), out opcao);
 
                 switch (opcao)
                 {
                     case (int)MenuEnum.CAD_PAC:
-                        CadastroPaciente ModuloCadastroPacietes = new CadastroPaciente();
-                        ModuloCadastroPacietes.ManuCadastro(Mock);
+                        CadastroPaciente moduloCadastroPacietes = new CadastroPaciente();
+                        moduloCadastroPacietes.ManuCadastro();
                         break;
                     case (int)MenuEnum.CAD_MED:
-                        CadastroMedico ModuloCadastroMedico = new CadastroMedico();
-                        ModuloCadastroMedico.ManuCadastro(Mock);
+                        CadastroMedico moduloCadastroMedico = new CadastroMedico();
+                        moduloCadastroMedico.ManuCadastro();
                         break ;
+                    case (int)MenuEnum.CAD_REC:
+                        CadastroRecepcionista moduloCadastroRecepcionista = new CadastroRecepcionista();
+                        moduloCadastroRecepcionista.ManuCadastro();
+                        break;
                     default:
                         break;
                 }
@@ -49,11 +55,11 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main
         }         
         
 
-        public static void ViewListPaciente()
+        /*public static void ViewListPaciente()
         {
             Console.Clear();
 
-            foreach (Paciente paciente in Mock.ListaPacientes)
+            foreach (Paciente paciente in Program.Mock.ListaPacientes)
             {
                 Console.WriteLine(@"        =============");
                 Console.WriteLine($"Codigo: {paciente.CodigoPaciente}");
@@ -62,6 +68,6 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main
                 Console.WriteLine($"Convenior: {paciente.Convenio}");
                 Console.WriteLine(@"        =============");
             }
-        }
+        }*/
     }
 }
