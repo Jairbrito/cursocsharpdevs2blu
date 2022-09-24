@@ -47,6 +47,10 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main
                         CadastroRecepcionista moduloCadastroRecepcionista = new CadastroRecepcionista();
                         moduloCadastroRecepcionista.ManuCadastro();
                         break;
+                    case (int)MenuEnum.CAD_FOR:
+                        CadastroFornecedor moduloCadastroFornecedor = new CadastroFornecedor();
+                        moduloCadastroFornecedor.ManuCadastro();
+                        break;
                     default:
                         break;
                 }

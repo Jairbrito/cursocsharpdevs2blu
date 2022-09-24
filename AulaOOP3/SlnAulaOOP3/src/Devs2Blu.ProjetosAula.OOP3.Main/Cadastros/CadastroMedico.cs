@@ -49,7 +49,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             foreach (Medico medico in Program.Mock.ListaMedico)
             {
                 Console.WriteLine(@"        =============");
-                Console.WriteLine($"Codigo: {medico.CodigoMedico}");
+                Console.WriteLine($"Codigo: {medico.Codigo}");
                 Console.WriteLine($"Nome: {medico.Nome}");
                 Console.WriteLine($"CPF: {medico.CGCCPF}");
                 Console.WriteLine($"CRM: {medico.CRM}");
@@ -57,15 +57,15 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                 Console.WriteLine(@"        =============");
             }
         }
-        public void CadastrarMedico(Mocks mocks)
+        public void CadastrarMedico()
         {
 
         }
-        public void AlterarPaciente(Mocks mocks)
+        public void AlterarPaciente()
         {
 
         }
-        public void ExcluirPaciente(Mocks mocks)
+        public void ExcluirPaciente()
         {
 
         }

@@ -49,22 +49,22 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             foreach (Recepcionista Recepcionista in Program.Mock.ListaRecepcionistas)
             {
                 Console.WriteLine(@"        =============");
-                Console.WriteLine($"Codigo: {Recepcionista.CodigoRecepcionista}");
+                Console.WriteLine($"Codigo: {Recepcionista.Codigo}");
                 Console.WriteLine($"Nome: {Recepcionista.Nome}");
                 Console.WriteLine($"CPF: {Recepcionista.CGCCPF}");
                 Console.WriteLine($"Setor: {Recepcionista.Setor}");
                 Console.WriteLine(@"        =============");
             }
         }
-        public void CadastrarRecepcionista(Mocks mocks)
+        public void CadastrarRecepcionista()
         {
 
         }
-        public void AlterarPaciente(Mocks mocks)
+        public void AlterarPaciente()
         {
 
         }
-        public void ExcluirPaciente(Mocks mocks)
+        public void ExcluirPaciente()
         {
 
         }

@@ -29,6 +29,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Utils
             CargaPaciente();
             CargaMedico();
             CargaRecepcionista();
+            CargaFornecedor();
         }
 
         public void CargaPaciente()
@@ -56,10 +57,21 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Utils
         {
             string[] recep = { "Bancario", "Atendimento ao cliente", "Infantil", "Operacional" };
             Random random = new Random();
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Recepcionista recepcionista = new Recepcionista(i, $"Recepcionista {i + 2}", $"{i}23{i}56{i}891{i}", recep[random.Next(0, 4)]);
                 ListaRecepcionistas.Add(recepcionista);
+            }
+        }
+
+        public void CargaFornecedor()
+        {
+            string[] recep = { "Renauxview", " Hudtelfa" };
+            Random random = new Random();
+            for (int i = 0; i < 3; i++)
+            {
+                Fornecedor fornecedor = new Fornecedor(i, $"Fornecedor {i + 10}", $"{i}23{i}56{i}891{i}", recep[random.Next(0, 2)]);
+                ListaFornecedores.Add(fornecedor);
             }
         }
     }
