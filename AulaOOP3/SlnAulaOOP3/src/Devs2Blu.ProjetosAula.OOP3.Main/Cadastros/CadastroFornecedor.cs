@@ -34,6 +34,9 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                     case (int)MenuEnum.LISTAR:
                         ListarFornecedores();
                         break;
+                    case (int)MenuEnum.CADASTRAR:
+                        CadastrarFornecedor();
+                        break;
                     default:
                         break;
                 }
@@ -45,25 +48,36 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
         {
             Console.Clear();
 
-            foreach (Fornecedor Fornecedor in Program.Mock.ListaFornecedores)
+            foreach (Fornecedor fornecedor in Program.Mock.ListaFornecedores)
             {
                 Console.WriteLine(@"        =============");
-                Console.WriteLine($"Codigo: {Fornecedor.Codigo}");
-                Console.WriteLine($"Nome: {Fornecedor.Nome}");
-                Console.WriteLine($"CPF: {Fornecedor.CGCCPF}");
-                Console.WriteLine($"Tipo do Fornecedor: {Fornecedor.TipoFornecedor}");
+                Console.WriteLine($"Codigo: {fornecedor.Codigo}");
+                Console.WriteLine($"Nome: {fornecedor.Nome}");
+                Console.WriteLine($"CPF: {fornecedor.CGCCPF}");
+                Console.WriteLine($"Tipo do Fornecedor: {fornecedor.TipoFornecedor}");
                 Console.WriteLine(@"        =============");
             }
         }
         public void CadastrarFornecedor(Fornecedor novoFornecedor)
-        {
-            Program.Mock.ListaFornecedores.Add(novoFornecedor);
+        {                
+                Console.WriteLine(@"        =============");
+                Console.WriteLine($"Codigo: {novoFornecedor.Codigo}");
+                string codigo = Console.ReadLine();
+                Console.WriteLine($"Nome: {novoFornecedor.Nome}");
+                string nome = Console.ReadLine();
+                Console.WriteLine($"CPF: {novoFornecedor.CGCCPF}");
+                string cpf = Console.ReadLine();
+                Console.WriteLine($"Tipo do Fornecedor: {novoFornecedor.TipoFornecedor}");
+                string tipoFornecedor = Console.ReadLine();
+                Console.WriteLine(@"        =============");
+                Program.Mock.ListaFornecedores.Add(novoFornecedor);
+            
         }
         public void AlterarFornecedor()
         {
 
         }
-        public void ExcluirFornecedor(Fornecedor Fornecedor)
+        public void ExcluirFornecedor(Fornecedor fornecedor)
         {
 
         }

@@ -1,4 +1,5 @@
 ﻿using Devs2Blu.ProjetosAula.OOP3.Models.Model;
+using Devs2Blu.ProjetosAula.OOP3.Main.Cadastros;
 using System;
 using System.Collections.Generic;
 using System.Linq;
