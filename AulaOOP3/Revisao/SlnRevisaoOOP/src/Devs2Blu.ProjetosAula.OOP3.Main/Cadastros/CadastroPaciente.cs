@@ -67,6 +67,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             Console.WriteLine("----- 1- Lista de Pacientes -----");
             Console.WriteLine("----- 2- Cadastro de Pacientes -----");
             Console.WriteLine("----- 3- Alterar Pacientes -----");
+            Console.WriteLine("----- 4- Deletar Pacientes -----");
             Console.WriteLine("---------------------");
             Console.WriteLine("----- 0- Sair -----");
             Int32.TryParse(Console.ReadLine(), out opcao);
@@ -152,10 +153,40 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
         public void Excluir()
         {
-            Paciente paciente = new Paciente();
-            ExcluirPaciente(paciente);
-        }
+            Paciente paciente;
+            Console.Clear();
+            Int32 codigoPaciente;
+            Console.WriteLine("Informe o ID do Medico Que Deseja Deletar:");
+            ListarPacientes();
+            Int32.TryParse(Console.ReadLine(), out codigoPaciente);
+            paciente = Program.Mock.ListaPacientes.Find(p => p.Codigo == codigoPaciente);
+            string opcaoExcluir;
 
+            Console.WriteLine($"Codigo: {paciente.Codigo} | Nome: {paciente.Nome} |" +
+                $" CPF: {paciente.CGCCPF} Convenio: {paciente.Convenio}");
+
+            Console.WriteLine("Tem Certeza Que Deseja Deletar o Pacinte?");
+            Console.WriteLine("01 - Sim | 02 - Nao");
+            opcaoExcluir = Console.ReadLine();
+
+            switch (opcaoExcluir)
+            {
+                case "01":
+                    Console.Clear();
+                    Console.WriteLine("Paciente Deletado Com Sucesso!");
+                    ExcluirPaciente(paciente);
+                    Console.ReadLine();
+                    break;
+                case "02":
+                    Console.Clear();
+                    Console.WriteLine("Paciente Nao Deletado!");
+                    Console.ReadLine();
+                    break;
+                default:
+                    break;
+            }
+
+        }
         #endregion
     }
 }
