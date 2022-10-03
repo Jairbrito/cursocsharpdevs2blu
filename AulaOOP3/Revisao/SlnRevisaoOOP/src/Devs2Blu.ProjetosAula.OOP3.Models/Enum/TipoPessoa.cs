@@ -10,8 +10,8 @@ namespace Devs2Blu.ProjetosAula.OOP3.Models.Enum
     public enum TipoPessoa
     {
         [Description("Pessoa Física")]
-        PF = 1,
+        PF = 0,
         [Description("Pessoa Jurídica")]
-        PJ = 2
+        PJ = 1
     }
 }
