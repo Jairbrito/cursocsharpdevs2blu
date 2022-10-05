@@ -1,0 +1,6 @@
+D:\Community\Packages\BancoDados\Aula4\New folder\Solution1\src\Devs2Blu.ProjetosAula.OOP3.Models\bin\Debug\Devs2Blu.ProjetosAula.SistemaCadastro.Models.dll
+D:\Community\Packages\BancoDados\Aula4\New folder\Solution1\src\Devs2Blu.ProjetosAula.OOP3.Models\bin\Debug\Devs2Blu.ProjetosAula.SistemaCadastro.Models.pdb
+D:\Community\Packages\BancoDados\Aula4\New folder\Solution1\src\Devs2Blu.ProjetosAula.OOP3.Models\obj\Debug\Devs2Blu.ProjetosAula.SistemaCadastro.Models.csproj.AssemblyReference.cache
+D:\Community\Packages\BancoDados\Aula4\New folder\Solution1\src\Devs2Blu.ProjetosAula.OOP3.Models\obj\Debug\Devs2Blu.ProjetosAula.SistemaCadastro.Models.csproj.CoreCompileInputs.cache
+D:\Community\Packages\BancoDados\Aula4\New folder\Solution1\src\Devs2Blu.ProjetosAula.OOP3.Models\obj\Debug\Devs2Blu.ProjetosAula.SistemaCadastro.Models.dll
+D:\Community\Packages\BancoDados\Aula4\New folder\Solution1\src\Devs2Blu.ProjetosAula.OOP3.Models\obj\Debug\Devs2Blu.ProjetosAula.SistemaCadastro.Models.pdb

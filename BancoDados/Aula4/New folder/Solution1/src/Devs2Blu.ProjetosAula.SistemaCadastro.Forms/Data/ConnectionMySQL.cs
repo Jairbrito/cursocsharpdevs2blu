@@ -21,10 +21,10 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms.Data
             Server = "localhost";
             DataBase = "sistemacadastro";
             User = "root";
-            Password = "root";
-            ConnectionString = $"Persist Security Info=False;server={Server};database={DataBase};uid={User};server={Server};database={DataBase};uid={User};pwd='{Password}";
+            Password = "12345678";
+            ConnectionString = $"Persist Security Info=False;server={Server};database={DataBase};uid={User};server={Server};database={DataBase};uid={User};pwd='{Password}'";
 
-            var conn = new MySqlConnection($"");
+            var conn = new MySqlConnection(ConnectionString);
 
             try
             {
@@ -32,7 +32,7 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms.Data
             }
             catch (MySqlException myex)
             {
-                MessageBox.Show(myex.Message, "Erro ao Conectar");
+                MessageBox.Show(myex.Message, "Erro ao Conectar", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 throw;
             }
 
