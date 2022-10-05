@@ -7,13 +7,26 @@ using System.Threading.Tasks;
 
 namespace Devs2Blu.ProjetosAula.SistemaCadastro.Models.Model
 {
-    public abstract class Pessoa
+    public class Pessoa
     {
-        public Int32 Codigo { get; set; }
+        public Int32 Id { get; set; }
         public String Nome { get; set; }
         public String CGCCPF { get; set; }
-        public String Endereco { get; set; }
         public TipoPessoa TipoPessoa { get; set; }
+        public FlStatus Status { get; set; }
 
+        public Pessoa()
+        {
+            Status = FlStatus.A;
+        }
+
+        public Pessoa(int id, string nome, string cGCCPF, TipoPessoa tipoPessoa, FlStatus status)
+        {
+            Id = id;
+            Nome = nome;
+            CGCCPF = cGCCPF;
+            TipoPessoa = tipoPessoa;
+            Status = status;
+        }
     }
 }
